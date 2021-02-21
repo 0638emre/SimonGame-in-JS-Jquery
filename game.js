@@ -43,7 +43,7 @@ function checkAnswer(currentLevel) {
 
         $("body").addClass("game-over");
 
-        $("#level-title").text("Kaybettiniz ! Yeniden denemek için F5'e basınız ! ");
+        $("#level-title").text("Kaybettin! Bir daha dene (F5) :) ");
 
         setTimeout(function () {
             $("body").removeClass("game-over");
